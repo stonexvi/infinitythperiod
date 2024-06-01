@@ -910,15 +910,34 @@ Sam: Yes.
  * Handles the incoming event and context from the AWS Lambda function.
  * 
  * @param {object} event - The incoming event.
- * @param {object} context - The incoming context.
  * 
  * @returns {Promise<void>} - A promise that resolves when the function is complete.
  */
-export async function handle(event, context) {
-  console.log('Event is', event);
-  console.log('Context is', context);
+export async function handle(event) {
+  const response = {
+    statusCode: 200,
+    errors: [],
+    episodeScript: null,
+  };
 
-  const theme = process.argv.slice(2);
+  console.log('Input event is', event);
+
+  let requestBody = {};
+
+  if (event.body) {
+    try {
+      requestBody = JSON.parse(event.body);
+    } catch (error) {
+      response.statusCode = 400;
+      response.errors.push({
+        code: 'INVALID_REQUEST_BODY',
+        message: 'The request body is invalid.',
+      })
+    }
+  }
+  
+  const theme = requestBody.theme ?? 'whatever you want';
+
   const chatCompletion = await openai.chat.completions.create({
     messages: [
         { role: 'system', content: 'You are a TV series writer. You must write a professional script for a new episode of the series "8th Period" and you must make the theme of the episode whatever the user decides. You will recieve information about the series characters and previous episode scripts to help you write a new episode in the same style and voice as the existing scripts.' },
@@ -927,12 +946,26 @@ export async function handle(event, context) {
         { role: 'system', content: `Here is the script for the second episode of "8th Period". Try to match this style and tone in your script, and use this as background information for the characters: ${secondEpisode}` },
         { role: 'system', content: `Here is the script for the third episode of "8th Period". Try to match this style and tone in your script, and use this as background information for the characters: ${thirdEpisode}` },
         { role: 'system', content: 'You now have everything you need to write a script for a new episode of "8th Period" when the user gives you the theme of the episode.' },
-        { role: 'user', content: `The theme of the episode is: ${event.theme}` }
+        { role: 'user', content: `The theme of the episode is: ${theme}` }
     ],
     model: 'gpt-4-turbo',
   });
 
-  console.log(chatCompletion);
-  console.log(chatCompletion.choices);
-  console.log(chatCompletion.choices[0].message.content);
+  console.log('Chat completion is', chatCompletion);
+
+  // check if chat completion is successful
+  if (
+    chatCompletion?.choices?.length
+    && chatCompletion.choices[0]?.finish_reason === 'stop'
+  ) {
+    // take the first choice
+    response.episodeScript = chatCompletion.choices[0]?.message?.content;
+  } else {
+    response.errors.push({
+      code: 'CHAT_COMPLETION_FAILED',
+      message: 'Chat completion failed.',
+    });
+  }
+
+  return JSON.stringify(response);
 }

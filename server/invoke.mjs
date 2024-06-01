@@ -1,7 +1,12 @@
 import { handle } from './handler.mjs';
 
 function invoke(theme) {
-  const event = { theme };
+  const event = { 
+    body: JSON.stringify({
+      theme, 
+    }),
+  };
+  
   return handle(event);
 }
 
