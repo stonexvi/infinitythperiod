@@ -1,0 +1,14 @@
+{
+  "name": "infinity-period",
+  "version": "1.0.0",
+  "description": "Infinity Period Server",
+  "main": "server.js",
+  "scripts": {
+    "invoke": "node invoke.mjs"
+  },
+  "author": "Brendan Stone",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.47.2"
+  }
+}
