@@ -32,7 +32,62 @@
 }
 
 .themeInput, .themeButton, .episodeScript {
+  margin: 20px;
+}
+
+.infinity, .thperiod {
+  height: 70px; /* Adjust this value to make the SVGs larger or smaller */
+  width: auto;
   margin: 10px;
+  padding-top: 20px;
+}
+
+@keyframes rotate-infinity {
+  from {
+    transform: rotate(-90deg);
+    margin-top: 50px;
+    margin-right: -15px;
+  }
+  to {
+    transform: rotate(0deg);
+    margin-top: 10px;
+    margin-right: -5px;
+  }
+}
+
+.infinity {
+  transform: rotate(-90deg);
+  margin-top: 50px;
+  margin-right: -15px;
+  animation: rotate-infinity 1s ease-out forwards;
+  animation-delay: 1s;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px; /* This should match the max-width of your themeInput */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.explanation {
+  font-style: italic;
+  font-weight: 300;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+  animation-delay: 2s; /* This should match the duration of the rotate-infinity animation plus */
 }
 
 .episodeScript {
@@ -47,6 +102,47 @@
   background-color: #f2f2f2;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   word-wrap: break-word;
+}
+
+.themeInput {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.themeInput:focus {
+  border-color: #007BFF;
+}
+
+.themeButton {
+  width: 100%;
+  max-width: 200px;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #cf4646;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.themeButton:hover {
+  background-color: #aa1219;
+}
+
+.themeButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
 
 .App-link {
