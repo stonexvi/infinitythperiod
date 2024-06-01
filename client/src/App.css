@@ -51,7 +51,7 @@
   to {
     transform: rotate(0deg);
     margin-top: 10px;
-    margin-right: -5px;
+    margin-right: 0px;
   }
 }
 
@@ -156,4 +156,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.funnel {
+  animation: spin 2s linear infinite;
+  height: 120px;
+  padding: 30px;
 }

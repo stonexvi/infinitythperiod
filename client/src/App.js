@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ReactComponent as Infinity} from './svg/infinity.svg';
 import { ReactComponent as ThPeriod} from './svg/thperiod.svg';
+import { ReactComponent as Funnel} from './svg/funnel.svg';
 import './App.css';
 
 /**
@@ -14,10 +15,19 @@ const ERROR_MESSAGE = 'FUDDRUCKERS. Something went wrong. Try again.';
  */
 const INFINITE_EPISODE_WRITER_URL = 'https://6bvlhqo2f34mfjxuq6mevirxoq0eggan.lambda-url.us-east-1.on.aws/';
 
-function renderTextWithNewlines(text) {
-  return text.split('\n').map((item, key) => {
-    return <span key={key}>{item}<br/></span>
-  })
+function renderTextWithMarkdown(text) {
+  // Replace newline characters with <br /> tags
+  let html = text.replace(/\n/g, '<br />');
+
+  // Replace **text** with <b>text</b>
+  html = html.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>');
+
+  // Replace _text_ with <i>text</i>
+  html = html.replace(/_(.*?)_/g, '<i>$1</i>');
+
+  html = html.replace(/\*(.*?)\*/g, '<i>$1</i>');
+
+  return html;
 }
 
 function App() {
@@ -90,7 +100,8 @@ function App() {
         onClick={ sendThemeToWriter }>
           Write an Episode
       </button>
-      { episodeScript && <p className='episodeScript'>{renderTextWithNewlines(episodeScript)}</p> }
+      { episodeScript && <div className='episodeScript' dangerouslySetInnerHTML={{ __html: renderTextWithMarkdown(episodeScript) }} /> }
+      { requestPending && <Funnel className='funnel'/> }
     </div>
   );
 }

@@ -25,7 +25,7 @@ Constantly compared to Bruce Wayne/Batman.  He is the “normal character”.  A
 Detention 
 
 John Packer 
-He's called cloudy because he used to breath in chalk dust and exhale it through his nose.  The troublemaker. Uses the bender excuse “trouble at home”. Instead his dad beats him, mother left, etc.  More sensitive to girls than Bender is. Still annoying, still a “tough guy” but not bad guy. He presents himself as “owning the place”.   Is good at magic, performs tricks. He ‘s not a magician; he does it to be annoying. He learned the tricks for his sister. Not a great student. Not failing, but having a C-D average.  No sports (perhaps wrestling?).  He thinks the comma is the greatest thing ever. You never have to stop your sentences. They never end; they just keep flowing and flowing.  He's a good speaker when angry but isn't as smooth as bender otherwise. He's a genius at Math, on the math team. No one knows about it, he does it cause he's good at it.  
+He's called cloudy because he used to breath in chalk dust and exhale it through his nose.  The troublemaker. Uses the bender excuse “trouble at home”. Instead his dad beats him, mother left, etc.  More sensitive to girls than Bender is. Still annoying, still a “tough guy” but not bad guy. He presents himself as “owning the place”.   Is good at magic, performs tricks. He's not a magician; he does it to be annoying. He learned the tricks for his sister. Not a great student. Not failing, but having a C-D average.  No sports (perhaps wrestling?).  He thinks the comma is the greatest thing ever. You never have to stop your sentences. They never end; they just keep flowing and flowing.  He's a good speaker when angry but isn't as smooth as bender otherwise. He's a genius at Math, on the math team. No one knows about it, he does it cause he's good at it.  
  
 Ramona Slyt 
 Artsy Character.  She loves the feeling of ice, but not smooth ice. The feeling of rigid ice against her hands.  She loves to sculpt, to mold with her hands. “There is so much to be seen in feeling”.  She will be seen running her hands over the keyboard.  Has a knack for quotes- picking them up and  creating them.  Loves what is simple, and what is abstract. Leaves a lot open to interpretation. Constantly in trouble because of “freedom of expression” Has a soft spot for Packer.  She has two mothers, one of them was previously married to a man (her birth mother).        
@@ -906,6 +906,581 @@ K-Fudge: So you're telling us you broke character?
 Sam: Yes.
 `;
 
+const forthEpisode = `
+8th Period 4:  PSA Drugs
+
+STUCCO
+
+Brett: Can we skip the rally if we hate school spirit?
+
+Dan: You're a representative of student council.
+
+Brett: So can I?
+
+Dan: ...no. (Moves on) Alright, well the rally is gonna start at 12 and the band is going to play for about 10 minutes, then each club is going to have about 3 minutes to represent their club and try to get people to join. There are 10 clubs so it's going to take about 30 minutes, speaking of which (to Amy) have the clubs told you what they plan on doing during their time slots?
+
+Amy: Yeah, everyone except the drama club.
+
+Dan: Alright, can you swing by and ask them what they're doing?
+
+Amy: Well...I was actually wondering if I could skip Stucco today. 
+
+Dan: What? Y-wh-what?
+
+Amy: I'm doing “dizzy bat”
+
+Dan: (unassertive) Listen, whatever medication you're on-
+
+Bruce: ...the game during the rally tomorrow.
+
+Dan: Oh...well sure you can practice during Stucco today.
+
+Brett: Wait, girls are allowed to participate in the rally?
+
+Bruce: (to Brett) You're a cave man.
+
+Brett: Amy, no offense, but I don't think you're cut out for physical activity.
+
+Amy: (to herself) I've run three marathons.
+
+Dan: Well then, you can help her train!
+
+Amy: No! I'm fine by myself.
+
+Brett: The president said we have to, so I think we have to.
+
+Dan: It was a suggestion.
+
+Brett: We're doing it! (stands up, grabs Amy's arm and begins walking to the door) Come on Amy, I'm gonna teach you a thing or two about having trouble seeing straight, and running like hell. (they exit)
+
+(Dan and Bruce look to each other)
+
+DRAMA
+
+(Sam, Ethan, Olivia, and 2 others. Sam crawls unto stage, moaning. He then clutches his chest dramatically and falls to the ground. His mouth begins to foam, drama kids run onto the stage to help him (Ethan is left on audience level, looking at rescuers as if to say “Yeah, you go get him”. Olivia runs up beside Sam.)
+
+Sam:  Save me... (Olivia looks concerned) Save me from all the cocaine.
+
+Olivia: What?
+
+Sam: Drugs have destroyed my life... now I'm... dead. (Sam wipes off foam)  
+
+(All drama kids look annoyed, especially Olivia and K-Fudge.)
+
+K-Fudge: Hell no. 
+
+(All except Olivia leave stage)
+
+Olivia: Oh my god Sam... you can't do that. Its just wrong.
+
+(Sam gets up) 
+
+Sam: (Confidently) Is it wrong? Is it wrong to keep the public aware of drug abuse?
+
+Olivia: No, its wrong to pretend that you're dying. Why would you do that?
+
+Sam: Because! (Pause, turn to audience of drama kids) Drama will be putting on a performance at the school rally. We will be educating our classmates on the evils of drugs. And this performance needs to be our best yet. 
+
+(All groan)
+
+Sam: Do not complain! We need people to love our performance because we need people to join... drama. We need to do some recruiting. Right now we only have about four and a half members.
+
+(Cuts to Ethan, he smiles and raises his finger in an acknowledging gesture)
+
+Olivia: (hopeful) So we're just gonna do something really simple?
+
+CUT TO: (Sam is holding a nerf gun aimed at Ethan who is on the ground, with his wheelchair tipped over. Several other members are standing around them. The ridiculousness includes the “angel of death” and others) 
+
+Ethan: (acting) It wasn't her fault! Cho was the merchant.
+
+Sam: Stop! Stop! (everyone breaks character) We need a re-write. We want the audience to feel bad for Jaun and to be able to relate to his illiterate grandmother, this just isn't cutting it. (angel of death continues, Sam looks back) Stop. (angel stops)
+
+STUCCO
+
+(Brett and Amy are in the hallway, Brett is holding a bat)
+
+Brett: Are you ready for this?
+
+Amy: Yeah-
+
+Brett: Don't talk! This is a mental game...now let's feel those biceps. (He grasps Amy's bicep, she looks up at him with an awkward face. His hand moves to her back, she jumps away quickly)
+
+Amy: (stuttering) Dizzy bat has nothing to do with strength.
+
+Brett: Fair enough. Let's just start off with some squat thrusts, I'll go first then you. Alright one (does squat thrust, then walks directly behind Amy) Alright now you're up.
+
+Amy: Brett! Let's just get to the spinning.
+
+Brett: (playfully) Fair enough, ya caught me again.
+
+Amy: (quick) What?
+
+Brett: (quicker/nervous) Um, nothing, nothing. I think the bat goes this way and the umm...or the bat goes the other way...you can do whatever.
+
+DRAMA
+(A childish looking drama kid is walking down the “street” whistling)
+
+James:  Wow! I'm so glad there are no drugs in my life!
+
+ (Man in a black morphsuit with the word “DRUGS” on it in white tape - “essence of drugs” - runs onto the stage and starts beating James. Cut to Dan and Bruce entering the auditorium)
+
+Bruce: What the hell is-
+
+Dan: Is this.
+
+(Bruce looks annoyed, Dan shrugs)
+
+Sam: (To stage) Cut! (Looking back at Bruce and Dan) Now look! We are in the presence of high school royalty. How are you today my nobles? 
+
+Dan: Quite well... peasant! (Dan is all smiles)
+
+(Sam  seems less enthused by this remark, Bruce cuts in)
+
+Bruce: Sam, we're just here to check in on what you're doing for the rally. 
+
+Sam: Ah, well (hoping down from stage, towards Dan and Bruce) we will be undertaking the simple task of saving this student body... from drugs. (Bruce, and even Dan, look exhausted by this) 
+
+Bruce: (annoyed) Yeah, how humble. So how much time are you going to need?
+
+Sam: Well brilliance cannot be limited-
+
+Bruce: (stern) How much time?
+
+Sam: (quickly) 2-3 minutes.
+
+Dan: (Cheerful) Alright, sounds good. We'll see you then.
+
+Sam: (As Bruce and Dan turn to leave) Actually... I could use a few extra hands...on stage...
+
+HALLWAY
+
+(Amy is set with her head on the bat)
+
+Brett: (Stopwatch in hand)  Ready? Go! (She starts spinning) Good, Good... alright run!
+
+(Amy runs, full speed, into a wall and collapses)
+
+DRAMA
+
+(“Evolution of America..... through Drugs”)
+
+Bruce: (unenthusiastic) This is the evolution of America.... through Drugs.
+
+(Quick Pan to right, there are two “kids” talking... one has a baseball glove and ball)
+
+Kid1: Gee, it sure it is a nice day. Wanna play baseball?
+
+Kid2: No I think I'm gonna do drugs instead!
+
+Kid1: Boy, can I join!
+
+(Quick Pan further right, there is a family at their dinner table)
+
+Child: Hey Pa, what're we having for dinner?
+
+Pa: We're having leftover drugs from last night!
+
+Child: Golly! I could eat drugs forever!
+
+Ma: Make sure you save some for you're sister, she's out at the drugstore right now.
+
+(Quick Pan even further right, there is a pile of bodies that Bruce is standing next to)
+
+Sam: (Seriously) Is this the America you want? 
+
+HALLWAY
+
+(Opens on Amy running into the wall again, Brett walks over to help Amy up)
+
+Brett: That's the seventh time. 
+
+Amy: (Getting up, speaking to Brett) If I have lemon pony, go to sea?
+
+Brett: Lets get you to the nurse.
+
+DRAMA
+
+(Ethan is on the stage by himself while the other members sit and watch, he rolls onto stage)
+
+Ethan: (sighs) (Unenthusiastic) I don't think this...(Sam motions to “go”)...I took drugs... and now I can't walk. (Quickly)  Really? Come on Sam? 
+
+Sam: What?
+
+Ethan: (looking down at script then up at Sam) I sold my legs for drugs? (mid-line Nicole Sharp walks into the auditorium.)
+
+Sam: (enthusiastically): Nicole! Welcome!
+
+Almost Simultaneously- Dan: No! / Drama (rushing up to meet her): Nicole!
+
+Nicole: (Addressing them all, with slight contempt): Hello.
+
+Sam: Oh Lady Sharp, thank you (bowing) for your more than generous donation to our little department here - (quietly) that makes dreams come true. 
+
+Nicole: (happily) You're more than welcome. Unlike Dan Martin, I don't want to screw over the drama department. (pulls out paper without looking at Sam, starts to walk forward towards Dan and Bruce) Budget Cuts. (Sam takes paper, astonished)
+
+Dan (Covers mouth quickly): Um Nicole, how did you get that?  
+
+Nicole: Sleep. 
+
+(Dan drops to the ground, Nicole ascends the stage to Bruce)
+
+Nicole: Hello Bruce. 
+
+(Bruce pops out of curtain, clearly trying to hide)
+
+Bruce: (Quickly) Yeah? (To Sam Confidently) So your tech stuff looks good-
+
+Sam: We don't have any tech for this-
+
+Bruce: The carburetor's running fine and... (Turning to Nicole, awkwardly) Hey Nicole, how... are you?                          
+
+Nicole: (unphased) I'm fine Bruce. Look, I just came to tell you that you need to stop whining on Facebook. 
+
+Bruce: (Extremely awkward, choppy, nervous and blushing. Looks down with hand behind head) What're you talking about?
+
+Nicole: (pulls out piece of paper and reads from it, professionally) “I miss you so much. I don't think I will ever be able to love again. Without you I feel like a lost puppy in the abandoned tundras of Antarctica, I am so alone. Thank you for the best 3 weeks of my life. Come back to me.” (finishes and glares Bruce)
+
+Bruce: Did you hack my facebook account-
+
+Nicole: (cuts him off) You posted it on my wall.
+
+Bruce: (Weakly) That could have been anyone...
+
+Nicole: Just stop alright, you're tainting my campaign for student council president next year. I can't have you as baggage. (turns to the drama members) Well good luck with your production tomorrow!
+
+Drama together- Bye Nicole! (Dan is waking up)
+
+Dan: She's the she-devil! (pause)
+
+Bruce: I can respect that.
+
+NURSE'S OFFICE
+
+(Brett and Amy are sitting in office, Nurse is facing them)
+
+Nurse: (hand on Amy's forehead) Alright, you should be fine, just try to get some fresh air.
+
+OUTSIDE
+
+(Amy and Brett walking side by side outside)
+
+Brett: Sorry I've been going hard on you, I just really want you to win. I'm kinda competitive.
+
+Amy: I understand though, I get the same way when I run marathons-
+
+Brett: (disregards her) All I'm saying is that you're a great person even though I don't treat you that way sometimes.
+
+Amy: Thank Brett, you're a great person too.
+
+Brett: I can really see us getting along now that- (que Hawk Screech) (both look to the sky in terror) 
+
+Amy: (scared to death) Was that a hawk? (Hawk Screeches again) (Amy covers her ears and screams, Brett plays dead, montage of Amy and Brett fearing the hawk begins)
+
+NURSE'S OFFICE
+
+(Amy and Brett sitting there scared)
+
+DRAMA
+
+(Sam is covered in war paint, shirt off, and screaming “Drugs” at the ceiling, slamming the ground. Cuts to Drama audience shocked.)
+
+Sam: (Out of Breath, Beaten) I don't know what I'm doing! (Starts to cry)
+
+Ethan: (Moving on stage. Kindly, concerned): Hey, Sam. I've got an idea.
+
+Sam: (Exhausted) What?
+
+Ethan: (soft but confident) Well, what if we all wore white tee shirts (Sam looks up at Ethan) and we stood, silent in the middle of the gymnasium, and after a few seconds one of us asks the crowd if they have ever wondered what it would be like to fall asleep in the backseat of a car, or to dive in the pool on a hot,humid day, and another asks whether they have ever wondered what it would feel like to grip the cold ice at the peak of Everest, or to hear a chorus of people roar as you cross the finish line, and someone else steps up and asks if they remember fearing the beast in the closest, or sitting in bed, awake, on early  Christmas morning, and finally, Sam, you step up and ask them all whether they remember what real ecstasy is, or the thrill of actual accomplishment, the rush of surprise, and the joy of fear. (Start to cut to Brett and Amy together, practicing. Brett mouths “One more Time”) Drugs dull life, they subtract from the momentary pleasures we feel and replace them with boredom, well compared to the instant gratification they offer. Its weak, it requires no effort, no struggle, no anticipation, its simply there to take. And its easy to take, instant gratification, but eventually it will mean nothing. You will become used to it, and all things will lose their appeal. Nothing compares.  But actually, nothing compares to real life. (Pause)  And then we all sit down. 
+
+(All of Drama is silent and in awe, Sam nobs understandingly and begins to get up)
+
+(Aside) Ethan: I was not going to tell people that I lost my legs because of drugs.
+
+(Cuts to final, “still” scene, Amy after successfully completing dizzy bat, “The following day, Amy threw up before competition even began”)
+`;
+
+const fifthEpisode = `
+8th Period Episode 5: The Hungry Games
+
+DETENTION
+
+(All 8 members are playing Seven Up. Opening angle of members with heads down on the desks.  Angle of members tapping others on the head. Members at the front of the Room - Rick, Packer, Randy, Jim, …. All heads look up)
+
+Packer: (Improv Name based on Clothing), you're up first.  
+
+Jake: (Angle in front rising slowly) (As if it were obvious) Randy.   
+
+Randy: Damn it! You always know!
+
+Jake: You always pick me... 
+
+Randy: (Confidently) Perhaps it's because I have a man crush on you. (Jake's reaction) (Members' Reaction) I just said that...out loud, yes? (Packer Nods)  Well then. No Shame.
+
+Packer: Alright. How about we do something else now that Seven Up is ruined forever.  
+
+Sawyer: Something wrong with a man having feelings for another man Packer?  
+
+Packer: Nope, just thought that right there was pretty strange.  Of course I could see why even a straight man would choose to like another guy over you Sawyer. When you lay out your options like that.
+
+Randy: Look guys I didn't mean to-
+
+Sawyer:  Yeah Cloudy, when was the last time a woman other than your mother showed any interest in you?
+
+Packer:  Disappear Witch!
+
+Nolan: Packer, calm down. She's a credit to female society.  At least she doesn't have the intellect... and wardrobe... of a third grader.
+(Sawyer Smiles) 
+
+Packer: Well Nolan, that's fine. I don't expect you to have much of a taste for women anyway....other than female ports. 
+
+Quan:  I think she's kinda... (Packer turns to him) alright. (Packer death stare) I'll let myself out.
+
+Sawyer: (To Packer) Keep it up and you'll drive them all out. Like fans at a Nickelback Concert. You know, like after their first song-
+
+Packer: Yeah I got it.  But that's not a bad idea.
+
+Randy:  A Nickelback Concert?
+
+Packer: Randy, we could all appreciate you shutting your trap. No, I was thinking we see who can stay here longest (door shut). A bit of a survival test. 
+
+Rick: New Game?
+
+Packer: New Game.
+
+DRAMA
+
+Sam: (only looking to Olivia and Ethan, holding a sheet of paper) Alright, Olivia, Ethan, I'm glad you could join me for the audition process! How many people have shown?
+
+Olivia: One.
+
+Sam: One? Where're the others?
+
+Ethan: What others?
+
+Sam: This sign up sheet is filled! Where is...Dick Hertz? Ivan Bitchacockoff? Dick Whack? Ben Dover?
+
+Ethan: Sam, are you listening to yourself?
+
+Sam: Yeah, where's Dick Fitz? Seymour Bush? (sudden realization) Oh...I should've known we didn't have that many Dicks in our school. Alright, send her in!
+     
+THEME
+
+DETENTION
+
+Packer: Okay, lets start this up.
+
+Sawyer: (instantly) I will kill anyone that does not leave this room in 8 seconds. 
+
+(Reactions are clearly doubtful, almost laughing at her with their faces. “What?”) 
+
+Sawyer: (to self) Okay. (Recognizing the doubt, she walks up to Thomas, and slams his head against the desk. Stares at Detention. Doubt is replaced with fear, an extra yells “OH, SH...”, and all members but 6 stay in the room) Let the games begin. (John Packer reaction)
+
+Randy: (In accent) Yes, let the 74th Hunger Games begin-
+
+Packer: Shut up Randy! No one likes those books!
+
+Nolan: Actually, the trilogy is a New York Times Best Seller so a lot of people like those books. (Packer's reaction)
+
+Sawyer: (to Nolan/seductively) You're really smart. (Nolan is uncomfortable) (Awkward Silence)
+
+Ramona: (trying to alleviate the awkwardness) So why exactly are we staying in here?
+
+Packer: (as if it were obvious) To win. The game. (Ramona's face is questioning) To win the game, what else matters?
+
+Ramona: Alright, I'm leaving. I have to get my (pause) I have a doctors appointment.  
+
+Sawyer and Packer: (quietly) One down.
+
+DRAMA
+
+(Robyn is standing alone on stage, with judges Sam, Ethan, and Olivia sitting in the front row)
+
+Sam: Ah, welcome to our humble abode where dreams enter reality through the convex of a child's imagination-
+
+E†han: Welcome to Drama, this is where we practice and this is where we'll conduct your audition.  
+
+Sam: Yes, and quite an audition it will be! You are the challenger in our domain! You will climb mountains and swim through seas to simply get through stage one! There has never been more contested a position as this, and you may die. (Robyn's reaction) but it will be worth every ounce of blood you spill-
+
+Olivia: Let's just start the audition.
+
+Robyn: (nervously) Okay.
+
+Sam: First I shall ask you some questions (pauses, pulls out papers) What is your favorite play?
+
+Robyn: (Confidently) Who's Afraid of Virginia Woolf.
+
+Sam: (Happily passionate) You theatrical skank! (To Olivia and Ethan) I really like this one! (To Robyn) Who's your favorite actor?
+
+Robyn: (Confidently) James Stewart.
+
+Sam: (Angrily passionate) You plebeian! It's not Christian Bale!?
+
+Robyn: (weakly) No.
+
+Sam: (head down) Alright (breath, looking up) How do you feel about nude scenes?
+
+DETENTION
+
+ (Packer is playing “I Don't Feel Like Dancing” chorus over and over again. Pan over all members, dead pan pained faces, Randy is dancing. Silence for a few seconds. Relief, Randy is disappointed. Nolan turns to talk to Jake “As I was saying-” Song begins again)
+
+Nolan: (Instantly) (Improv animal scream) (Grabs ipod (phone?) and throws it to the ground. Reactions. Nolan's face, astonished) I am sorry. I just destroyed your phone. (Packer's face is calm) I tend to get... a little aggressive when I go for extended periods without food. I apologize.
+
+Packer: It's not my phone (pan to Randy crying)
+
+Randy: (Broken) What am I supposed to do- 
+
+Nolan: (Tense) I said I apologize! 
+
+(Randy's face is stunned)
+
+Sawyer: (Pulls Nolan's chair closer to her. Seductively) Mmm, I liked that animal reaction you had there Nolan. Maybe I should lock you up and starve you. See what happens when I enter the lion's cage. (Nolan is extremely uncomfortable. Packer's reaction is also confused/uncomfortable)
+
+(Cut to Randy and Jake)
+
+Randy: (Still teary) Oh Jake, let me cry on your shoulder (moves to shoulder)
+
+Jake: (Instantly) Get off Me!
+
+Randy: Fine! God, I just can't win in here! (starts to cry more, covers his head in his arms, runs out of detention but hits the door)
+
+DRAMA 
+
+Sam: Robyn, the line is “Rorksheer ma stroop et un stoompa vencita comme usa lavity on groogon malter!” All you have to do is say in reverse while dancing to Rasputin and tapping out morse code! Is it that hard?!
+
+(Robyn is stunned, and exhausted)
+
+Ethan: Sam, you really need-
+
+Sam: Ethan! This is my audition. Hush. (To Robyn) Now Robyn. Do you want to be a part of Drama? (Robyn Nods) Alright let's try something then. I'm going to come on stage and... um, Olivia too, (Ethan's face) and we are going to do an improv scene. (moving onto stage with Olivia) Alright, I'll set the scene (deep breath, then turning towards Robyn) Hello Mrs. Cofferage, as you know I'm running for moon President. (Reactions)
+
+DETENTION
+
+(Remaining members are sitting in a circle, having a seance, holding hands. Order: Packer, Nolan, Sawyer, Jake, Packer...)  
+
+Packer: (eyes closed, tight angle - once he starts speaking, slow pan around circle ending on Jake.) Enter me Spirit. (Shutters) I sense you, I feel your icy touch. You. You were orphaned. You lived in a pawn shop, in the back, in storage.  The owner used to let you stay... but only, only if you dressed in all black so that when he turned off the light... so when he turned off the light it was as if you were gone... all except your pale white face... and this face, your face, well it didn't matter. No, what mattered was that he couldn't touch you, he couldn't touch you while looking at your face...
+
+Jake: (Nervous) I have to go the bathroom.  
+
+Sawyer: Then go.
+
+Jake: Like in my pants, or should I leave. (Reactions. Packer begins to make a peeing sound, the rest join in (Pouring water, etc). Sawyer's pee noise is extremely loud and incredibly close and obnoxious. All stop and stare.)
+
+Nolan: (Concerned) Is that how you pee?
+
+Sawyer: Wouldn't you like to know (winks).  
+
+Nolan: (pause) No...no, thank you.
+
+Packer: Hey, loud pee-ers, high five. Not that ladylike, but alright.
+
+Jake: Guys.... I shat myself 30 minutes ago. (Everyone is clearly uncomfortable.) Yeah. (Gets up to leave. Hears his pants. Sits back down)
+
+Packer: Please leave.  (Jake gets up and leaves. Pants are heard)
+
+Sawyer: How did we not know that?
+
+Packer: (Honestly) I don't know. (Zooms to reveal wet pants).
+
+DRAMA
+
+(Olivia, Sam, and Robyn are still improving on stage. Sam is in mid song)
+
+Sam: (To Robyn) So if you steal away in a spaceship.
+
+Emily: (To Robyn) You'd have to shave your head!
+
+Sam: And get up to the craters.
+
+Emily:  By then she may be dead!
+
+
+Sam:  But if she slinks into the polls, and checks off just my name.
+
+Emily: They'll never believe her, It won't work, It would be a shame. (Sam points to Robyn who is trying to follow the flow of the scene)
+
+Robyn:  (In a gorgeous tone, singing) A shame or not, it's worth the risk. I'll change the world, it will be brisk!
+
+(Sam is awe struck)
+
+Sam: (trying to cry)...wow...that was...that was beautiful.
+
+Robyn: (to Sam, concerned) Are you crying?
+
+Sam: (breaks concentration) I was trying to...either way, (begins walking back to seat) Your improv was very good, and your voice...was like that of a euphonic spirit singing of what love's first touch feels like. (to Olivia) What did you think?
+
+Olivia: (assuring) It was beautiful.
+
+Sam: (To Ethan) And your thoughts?
+
+Ethan: (honestly) Yeah, it was very good.
+
+Sam: Indeed (at seat, to Robyn) Well you have come so far and done very well, but there is one final task at hand.
+
+Robyn: Okay.
+
+Sam: Let me know when you're ready.
+
+Robyn: I'm ready.
+
+Sam: Okay, tell me, Ms. Robyn Webber. Why do you want to be in Drama? (Robyn's reaction)
+
+DETENTION
+
+(Packer is asleep on a desk. Sawyer is sitting on Nolan's lap)
+
+Sawyer: See, I told you that this chair could support both our weight, no problem.
+
+Nolan: (Face is rigid, but afraid) Yes. (Pause)  I think I should go now.
+
+Sawyer: (Childish, mockingly playful) But Nolan, I haven't even given you your chocolate bar yet. (Sawyer smirks, there is a close up of the chocolate bar and Nolan's face)
+
+Nolan: (Extremely eager, but restrained. Almost deranged due to lack of food) I want to have.    
+
+Sawyer: (Toying) I know you do, you haven't eaten in hours. So come get it (she begins to slowly unpeal the wrapper)
+
+Nolan: (Ignoring her blatant tactics, not wanting to get involved) Where did you get that?
+
+Sawyer: (Still toying, still confident) Wouldn't you like to know?
+
+Nolan: (Suddenly, Confident but still deranged) Where's Jack Merch.
+
+Sawyer: (Confidence drops at Nolan's tone) Huh? (Nolan pushed Sawyer off him, stands up, sniffs the air, and makes a beeline for the closet in the room. He opens the closet to reveal Merch, who has a number of food items on him, almost a concession stand in the closet. Merch is clearly nervous as Nolan looks at him like a crazy man. Jack Merch, clearly intimidated, closes the closet door slowly as Nolan continues to look angrily. Nolan is about to explode when Sawyer intervenes.)
+
+Sawyer: (afraid) Nolan! Here! (She tosses the candy outside the room. Nolan sprints after it like a dog and Sawyer shuts the door. The sound wakes Packer up.)
+
+Packer: (Waking) God, I was having this awful nightmare (sees Sawyer, looks around) I was in... a meadow... hey, where is everyone.
+
+Sawyer: Gone. Its just you and me.
+
+Packer: Well from one nightmare to the next, I suppose. (Sawyer's reaction) Alright, I'm heading out. (Starts to leave)  
+
+Sawyer: You're gonna let me win?
+
+Packer: You have your talons dug so deep into the tile here, I don't think I could ever get you to leave. (Sawyer's reaction) (With mock sweetness) Goodnight Sweetheart. (Starts to leave)
+
+Sawyer: (Surprised, determined to get a reaction from Packer) You know this makes me better than you.      
+
+Packer: (at doorway) Of course. But who will ever know. (leaves)
+
+Sawyer: (alone) Guess I'm the winner.
+
+DRAMA
+
+Robyn: (during monologue cut to John walking away from detention, Sawyer walking down the hallway near Nolan [Nolan seems uncomfortable, Sawyer is seductively/flirtatiously looking at him] As they walk out of vision from the room, Thomas awakes from being knocked out earlier) Well...my life has been filled with drama. Like many people my age, I may not be in the best situation in the world, but I don't want that to affect my outlook on life. I'll always have a smile on, because I believe that I'm the luckiest person in the world. I believe that, because I'm lying to myself, and what are actors but convincing liars. The best players in the game. Because all we really do is play games. Pretend to make everything all right, toss a few titles around. And the game is no fun played alone, acting by yourself is a nightmare (Sam nods as if in complete understanding).  But if everyone's in on it, if everyone's lying, it actually becomes something real. (She smiles) And It's actually kinda fun.  So, I guess I want to join Drama because I want to start pretending with other people. Because I'm tired of pretending alone.   
+
+Sam: (Disappointed) Well, I like your voice.
+
+Ethan: (Impressed) In my audition I just answered with “I like acting.”
+
+Sam: (Assuring) Yeah it was heartfelt (To Robyn, honestly) Seeing as you're the only person who auditioned, you're in. However, you could have been up against the entire world, and I'd still pick you. We are very lucky to have your voice- you.
+
+Robyn: Thank you
+
+(credits)
+
+END
+`
+
 /**
  * Handles the incoming event and context from the AWS Lambda function.
  * 
@@ -919,8 +1494,6 @@ export async function handle(event) {
     errors: [],
     episodeScript: null,
   };
-
-  console.log('Input event is', event);
 
   let requestBody = {};
 
@@ -940,12 +1513,16 @@ export async function handle(event) {
 
   const chatCompletion = await openai.chat.completions.create({
     messages: [
-        { role: 'system', content: 'You are a TV series writer. You must write a professional script for a new episode of the series "8th Period" and you must make the theme of the episode whatever the user decides. You will recieve information about the series characters and previous episode scripts to help you write a new episode in the same style and voice as the existing scripts.' },
+        { role: 'system', content: 'You are a web series writer. You must write a script for a new episode of the series "8th Period" and you must make the theme of the episode whatever the user decides. You will recieve information about the series characters and previous episode scripts to help you write a new episode in the same style and voice as the existing scripts.' },
         { role: 'system', content: `Here are the characters in the series "8th Period". You will find them grouped by club. Below each character name is a description about that character: ${allCharacterInfo}` },
         { role: 'system', content: `Here is the script for the pilot episode of "8th Period". Try to match this style and tone in your script, and use this as background information for the characters: ${pilotEpisode}` },
-        { role: 'system', content: `Here is the script for the second episode of "8th Period". Try to match this style and tone in your script, and use this as background information for the characters: ${secondEpisode}` },
-        { role: 'system', content: `Here is the script for the third episode of "8th Period". Try to match this style and tone in your script, and use this as background information for the characters: ${thirdEpisode}` },
-        { role: 'system', content: 'You now have everything you need to write a script for a new episode of "8th Period" when the user gives you the theme of the episode.' },
+        { role: 'system', content: `Here is the script for another episode of "8th Period". Try to match this style and tone in your script, and use this as background information for the characters: ${secondEpisode}` },
+        { role: 'system', content: `Here is the script for another episode of "8th Period". Try to match this style and tone in your script, and use this as background information for the characters: ${thirdEpisode}` },
+        { role: 'system', content: `Here is the script for another episode of "8th Period". Try to match this style and tone in your script, and use this as background information for the characters: ${forthEpisode}` },
+        { role: 'system', content: `Here is the script for another episode of "8th Period". Try to match this style and tone in your script, and use this as background information for the characters: ${fifthEpisode}` },
+        { role: 'system', content: 'When you write your script, try to be witty and edgy - the intended audience is older teenages to young adults. It is very important that this new script feels like the previous scripts, and you should sometimes make references to things that happened in previous scripts.' },
+        { role: 'system', content: 'When you write your script, try to make the subplots for each group of characters distinct. There should be a central conflict that the characters must overcome using their own abilities. Having some conflict is important. All subplots should eventually overlap and relate to the theme' },
+        { role: 'system', content: 'You now have everything you need to write a script for a new episode of "8th Period" when the user gives you the theme of the episode. When formatting your script, try to make it look like a professional television script and ignore the formatting of the other 8th period scripts you were provided' },
         { role: 'user', content: `The theme of the episode is: ${theme}` }
     ],
     model: 'gpt-4-turbo',

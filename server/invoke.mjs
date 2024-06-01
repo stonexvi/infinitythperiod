@@ -1,13 +1,16 @@
 import { handle } from './handler.mjs';
 
-function invoke(theme) {
+async function invoke(theme) {
   const event = { 
     body: JSON.stringify({
       theme, 
     }),
   };
-  
-  return handle(event);
+
+  const responseData = await handle(event); 
+  const responseJson = JSON.parse(responseData);
+  console.log(responseJson);
+  console.log('Episode script: ', responseJson.episodeScript);
 }
 
 // invoke with the argument passed to the script

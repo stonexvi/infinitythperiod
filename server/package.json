@@ -2,7 +2,7 @@
   "name": "infinity-period",
   "version": "1.0.0",
   "description": "Infinity Period Server",
-  "main": "server.js",
+  "main": "invoke.js",
   "scripts": {
     "invoke": "node invoke.mjs"
   },
