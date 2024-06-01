@@ -35,6 +35,15 @@ function App() {
   const [episodeScript, setEpisodeScript] = useState('');
   const [requestPending, setRequestPending] = useState(false);
 
+  const copyToClipboard = async () => {
+    try {
+      await navigator.clipboard.writeText(episodeScript);
+      console.log('Copied episode!');
+    } catch (err) {
+      console.log('Failed to copy text');
+    }
+  };
+
   function handleThemeUpdate(event) {
     setCurrentTheme(event.target.value);
   }
@@ -46,6 +55,9 @@ function App() {
       console.log('Existing request pending, try again later.');
     } else {
       try {
+        // reset the current episondeScript
+        setEpisodeScript('')
+
         // establish that a request is pending
         setRequestPending(true);
 
@@ -100,8 +112,10 @@ function App() {
         onClick={ sendThemeToWriter }>
           Write an Episode
       </button>
+      { !requestPending && episodeScript && <button className='copyButton' onClick={copyToClipboard}>Copy</button> }
       { episodeScript && <div className='episodeScript' dangerouslySetInnerHTML={{ __html: renderTextWithMarkdown(episodeScript) }} /> }
-      { requestPending && <Funnel className='funnel'/> }
+      { requestPending && <Funnel className='funnel'/>}
+
     </div>
   );
 }

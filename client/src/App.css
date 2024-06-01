@@ -136,6 +136,25 @@
   transition: background-color 0.3s ease;
 }
 
+.copyButton {
+  width: 20%;
+  max-width: 100px;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f6d160;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.copyButton:hover {
+  background-color: #d4b14a;
+}
+
 .themeButton:hover {
   background-color: #aa1219;
 }
