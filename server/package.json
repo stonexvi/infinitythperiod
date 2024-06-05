@@ -1,10 +1,11 @@
 {
   "name": "infinity-period",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Infinity Period Server",
   "main": "invoke.js",
   "scripts": {
-    "invoke": "node invoke.mjs"
+    "invoke": "node invoke.mjs",
+    "predeploy": "zip -r deployments/infinityth-period-v$npm_package_version.zip . -x deployments/*"
   },
   "author": "Brendan Stone",
   "license": "ISC",
