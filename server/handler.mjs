@@ -1525,7 +1525,7 @@ export async function handle(event) {
         { role: 'system', content: 'You now have everything you need to write a script for a new episode of "8th Period" when the user gives you the theme of the episode. When formatting your script, try to make it look like a professional television script and ignore the formatting of the other 8th period scripts you were provided' },
         { role: 'user', content: `The theme of the episode is: ${theme}` }
     ],
-    model: 'gpt-4-turbo',
+    model: 'gpt-4o',
   });
 
   console.log('Chat completion is', chatCompletion);
